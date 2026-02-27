@@ -1,0 +1,99 @@
+# ==========================
+# Python cache files
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Bytecode folders
+*/__pycache__/
+
+# ==========================
+# Virtual Environments
+# ==========================
+venv/
+env/
+.venv/
+
+# ==========================
+# Dataset files (Large)
+# ==========================
+Dataset/images/
+Dataset/labels/
+
+# If you want to keep folder structure
+!Dataset/images/.gitkeep
+!Dataset/labels/.gitkeep
+
+# ==========================
+# Model Weights (Large Files)
+# ==========================
+*.pt
+*.onnx
+*.engine
+*.tflite
+*.weights
+
+# Example:
+yolov8n.pt
+
+# ==========================
+# Logs and outputs
+# ==========================
+runs/
+logs/
+outputs/
+results/
+
+# ==========================
+# Temporary files
+# ==========================
+*.tmp
+*.log
+*.cache
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Testing files (optional)
+# ==========================
+test_images/
+test_videos/
+
+# ==========================
+# Python build files
+# ==========================
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# Secrets
+# ==========================
+.env
+.env.local
+
+# ==========================
+# Colab downloads
+# ==========================
+content/
+
+# ==========================
+# Trajectory data (optional)
+# ==========================
+trajectories.csv

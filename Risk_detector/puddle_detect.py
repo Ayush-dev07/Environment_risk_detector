@@ -10,10 +10,12 @@ class ObjectDetector:
 
     def detect(self, frame):
 
+        small_frame = cv2.resize(frame, (640, 480))
+
         results = self.model.predict(
-            frame,
+            small_frame,
             conf=0.55,
-            imgsz=640,
+            imgsz=480,
             verbose=False
         )
 

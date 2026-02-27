@@ -1,5 +1,5 @@
 import cv2
-from Interference.puddle_detect import ObjectDetector
+from Risk_detector.puddle_detect import ObjectDetector
 
 detector = ObjectDetector()
 
