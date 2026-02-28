@@ -34,6 +34,9 @@ Dataset/labels/
 *.engine
 *.tflite
 *.weights
+models/
+*.pt
+*.zip
 
 # Example:
 yolov8n.pt
