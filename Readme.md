@@ -193,36 +193,9 @@ The application includes basic error handling:
 7. **GPU Support**: Utilize GPU acceleration for faster inference
 8. **Multiple Camera Support**: Process feeds from multiple cameras simultaneously
 
-## Troubleshooting
+## Deployments
 
-### Camera Not Found
-- Check camera connection and index
-- List available devices: `v4l2-ctl --list-devices` (on Linux)
-- Try different camera indices (0, 1, etc.)
-
-### Low Detection Accuracy
-- Adjust confidence threshold in detector files
-- Ensure adequate lighting for fire and garbage detection
-- Check model file integrity
-
-### Slow Performance
-- Reduce input frame resolution in `cv2.resize()`
-- Use a GPU-enabled system
-- Close other resource-intensive applications
-
-### Model Not Loading
-- Verify model files exist in `models/` directory
-- Check file permissions
-- Ensure ultralytics library is properly installed
-
-## Contributing
-
-To improve the detectors:
-
-1. Collect additional training data for specific risk types
-2. Retrain models with new datasets
-3. Update model files in the `models/` directory
-4. Test with various environmental conditions
+**Fire-detection model**: https://huggingface.co/spaces/Ayush0000002/Fire-Detection
 
 ## License
 
