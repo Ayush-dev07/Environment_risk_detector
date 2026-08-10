@@ -196,6 +196,7 @@ The application includes basic error handling:
 ## Deployments
 
 **Fire-detection model**: https://huggingface.co/spaces/Ayush0000002/Fire-Detection
+**Puddle-detection-model**: https://huggingface.co/spaces/Ayush0000002/Puddle-Detection
 
 ## License
 
